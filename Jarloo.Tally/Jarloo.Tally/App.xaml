@@ -1,0 +1,13 @@
+﻿<Application x:Class="Jarloo.Tally.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:tally="clr-namespace:Jarloo.Tally">
+    <Application.Resources>
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary>
+                     <tally:LocalBootstrapper x:Key="bootstrapper"/>
+                 </ResourceDictionary>
+             </ResourceDictionary.MergedDictionaries>
+         </ResourceDictionary>
+    </Application.Resources>
+</Application>
